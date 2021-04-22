@@ -1,0 +1,13 @@
+project:
+  key: "STOC"
+  plan:
+    key: "STOC123"
+    name: "my-nodejs-ms"
+stages:
+  - jobs:
+      - scripts:
+          - "#!/bin/bash"
+          - "set -e"
+          - "npm t"
+        requirements:
+          - "os"

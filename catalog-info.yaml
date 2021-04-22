@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-nodejs-ms
+  description: NodeJS template for lambda deployment
+  annotations: 
+    github.com/project-slug: https://github.com/dhruvkhanna38/my-nodejs-ms
+    backstage.io/techdocs-ref: bitbucket:https://bitbucket.tools.telstra.com/https://github.com/dhruvkhanna38/my-nodejs-ms
+spec:
+  type: service
+  lifecycle: experimental
+  owner: d123456
